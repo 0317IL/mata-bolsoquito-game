@@ -1,0 +1,55 @@
+html{
+	cursor: url(src/assets/mata_mosca.png) 30 30, auto;
+}
+
+body{
+	background-image: url(src/assets/Background.png);
+	background-repeat: no-repeat; 
+	
+}
+
+.painel{
+	position: absolute;
+	width: 190px;
+	padding: 10px;
+	left: 0px;
+	bottom: 0px;
+	border-top: solid 1px #fff;
+	background-color: #fff;
+	opacity: 0.7;
+}
+
+.vidas{
+	float: left;
+}
+
+.tempo{
+	float: left;
+	font-size: 20px;
+	font-weight: bold
+}
+
+/*  FUNCTION RANDOMSIZE  */
+.bolsoquisto {
+	width: 50px;
+	height: 50px;
+}
+
+.bolsoquisto2 {
+	width: 70px;
+	height: 70px;
+}
+
+.bolsoquisto3 {
+	width: 90px;
+	height: 90px;
+}
+
+/*  FUNCTION  RANDOMSIDE  */
+.ladoA{
+	transform: scaleX(1);
+}
+
+.ladoA{
+	transform: scaleX(-1);
+}
